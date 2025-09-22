@@ -49,6 +49,6 @@ class ComplexNum {
 		if(this.im != 0.0){
 			buffer += this.im+"i";
 		}
-        return ;
+        return buffer;
     }
 }
