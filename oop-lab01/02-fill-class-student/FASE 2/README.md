@@ -2,7 +2,7 @@
 
 Ho compilato il main in TestStudent ho voluto aggiungere una nuova feature:
 
-(**ARRAY DI OGGETTI**)[https://stackoverflow.com/questions/5364278/creating-an-array-of-objects-in-java]
+[**ARRAY DI OGGETTI**](https://stackoverflow.com/questions/5364278/creating-an-array-of-objects-in-java)
 
 
 il programma stampa correttamente
