@@ -26,3 +26,7 @@ replay_pid*
 #vscode folders
 .metals/
 .vscode/
+
+#jdk-binaries 
+jdk-21/*
+!jdk-21/README.md
