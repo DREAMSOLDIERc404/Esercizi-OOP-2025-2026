@@ -4,6 +4,7 @@ class TestCalculator {
 	   * Uncomment the code below once Calculator has been created!
 	   */
       Calculator calc = new Calculator();
+      calc.build();
       System.out.println("1 + 2 =" + calc.add(1, 2));
       System.out.println("nOpDone= "+calc.nOpDone);
       System.out.println("lastRes= "+calc.lastRes);
