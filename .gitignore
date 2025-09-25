@@ -28,3 +28,4 @@ replay_pid*
 .vscode/
 
 #jdk-binaries 
+jdk-21/JAVA/
