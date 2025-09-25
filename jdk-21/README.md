@@ -8,7 +8,9 @@
   C:\..\ES..25-2026\jdk-21\[bin,conf,include,...]
   ```
 
-Dopodichè, prima di usare i comandi java,javac, ...   
+Dopodichè, **PER USARE I COMANDI IN UNA SHELL** come java,javac, ...  
+
+### Windows
 
 **Nel terminale** lancia il seguente comando:
 
