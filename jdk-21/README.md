@@ -2,10 +2,10 @@
 
   ## *Java SE Development Kit 21.0.7*
 
-  Scarica la zip (vai ai [download](#link-di-download) ) e metti il contenuto qua in modo che il path sia il seguente:
+  Scarica la zip (vai ai [download](#link-di-download) ) e metti il contenuto NELLA CARTELLA `.\JAVA` in modo che il path sia il seguente:
 
   ```
-  C:\..\ES..25-2026\jdk-21\[bin,conf,include,...]
+  C:\..\ES..25-2026\jdk-21\JAVA\[bin,conf,include,...]
   ```
 
 Dopodichè, **PER USARE I COMANDI IN UNA SHELL** come java,javac, ...  
