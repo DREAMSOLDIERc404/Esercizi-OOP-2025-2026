@@ -29,7 +29,9 @@ $> set PATH=C:\[PATH_TO_FOLDER]\Esercizi-OOP-2025-2026\jdk-21\JAVA\bin;%PATH%
 ### Linux
 *Da aggiungere...*
 
-ora avrai una shell con **Java-21** pronta!
+## Ecco fatto!
+
+Ora avrai una shell con **Java-21** pronta!
 
 ## LINK DI DOWNLOAD:
 
