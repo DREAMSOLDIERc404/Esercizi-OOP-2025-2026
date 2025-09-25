@@ -26,15 +26,15 @@ class Train {
     }
 
     double getTotOccupancyRatio(){
-        return (this.nFirstClassReservedSeats + this.nSecondClassReservedSeats) / this.nTotSeats;
+        return (this.nFirstClassReservedSeats + this.nSecondClassReservedSeats) * 100d / this.nTotSeats;
     }
 
     double getFirstClassOccupancyRatio(){
-        return (this.nFirstClassReservedSeats)/ this.nTotSeats;
+        return (this.nFirstClassReservedSeats) * 100d / this.nFirstClassSeats;
     }
 
     double getSecondClassOccupancyRatio(){
-        return this.nSecondClassReservedSeats / this.nTotSeats;
+        return this.nSecondClassReservedSeats * 100d / this.nSecondClassSeats;
     }
 
     void deleteAllReservations(){
