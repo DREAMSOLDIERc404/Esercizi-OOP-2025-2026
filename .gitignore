@@ -29,6 +29,3 @@ replay_pid*
 
 #jdk-binaries 
 jdk-21/*
-jdk-21/JAVA/*
-!jdk-21/README.md
-!jdk-21/JAVA
