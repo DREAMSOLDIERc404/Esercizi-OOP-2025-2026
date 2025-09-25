@@ -43,12 +43,25 @@ class ComplexNum {
 		if(this.re != 0.0){
 			buffer += this.re;
 		}
-		if(this.re && this.im){
+        //Per stampare il + numero immaginario deve essere maggiore di 0 
+        //perchè se diverso va omesso e se minore java stampa da solo il - 
+		if((this.re != 0.0) && (this.im > 0.0)){
 			buffer += "+";
 		}
-		if(this.im != 0.0){
+		if(this.im != 0.0 && this.im != 1.0 && this.im != -1.0){
 			buffer += this.im+"i";
 		}
+        if(this.im == 1.0){
+            buffer += "i";
+        }
+        if(this.im == -1.0){
+            buffer += "-i";
+        }
+
+        if(buffer==""){
+            buffer = "0.0";
+        }
+
         return buffer;
     }
 }

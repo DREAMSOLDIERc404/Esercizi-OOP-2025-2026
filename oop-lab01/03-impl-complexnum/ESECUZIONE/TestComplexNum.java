@@ -30,5 +30,80 @@ class TestComplexNum {
        *
        * 11) Controllare se l'output corrisponde a quanto preventivato
        */
+      
+      //1)
+      ComplexNum c1 = new ComplexNum();
+      c1.build(3,5);
+
+      //2)
+      ComplexNum c2 = new ComplexNum();
+      c2.build(7,-4);
+      
+      //3)
+      ComplexNum c3 = new ComplexNum();
+      c3.build(-2, 3);
+
+      //4)
+      ComplexNum c4 = new ComplexNum();
+      c4.build(-2, 3);
+
+      //5)
+      System.out.println("C1: "+c1.toStringRep());
+      System.out.println("C2: "+c2.toStringRep());
+      System.out.println("C3: "+c3.toStringRep());
+      System.out.println("C4: "+c4.toStringRep());
+
+      //6)
+      c1.add(c2);
+
+      //7)
+      c2.add(c4);
+      
+      //8)
+      System.out.println("C1: "+c1.toStringRep());
+      System.out.println("C2: "+c2.toStringRep());
+      System.out.println("C3: "+c3.toStringRep());
+      System.out.println("C4: "+c4.toStringRep());
+
+      //9)
+      //Tutti i bug corretti e fixati...
+
+      //10)
+      System.out.println(c3.equal(c1));
+      System.out.println(c3.equal(c2));
+      System.out.println(c3.equal(c4));
+
+      ComplexNum toPrint = new ComplexNum();
+        toPrint.build(0, 0);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(2, 2);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(2, -2);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(-2, 2);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(-2, -2);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(0, -2);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(0, 2);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(0, -1);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(0, 1);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(2, 1);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(2, -1);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(-2, 1);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(-2, -1);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(2, 0);
+        System.out.println(toPrint.toStringRep());
+        toPrint.build(-2, 0);
+        System.out.println(toPrint.toStringRep());
+      
     }
 }
