@@ -23,6 +23,11 @@ oppure
 //Cmd
 $> set PATH=C:\[PATH_TO_FOLDER]\Esercizi-OOP-2025-2026\jdk-21\JAVA\bin;%PATH%
 ```
+### Mac
+*Da aggiungere...*
+
+### Linux
+*Da aggiungere...*
 
 ora avrai una shell con **Java-21** pronta!
 
