@@ -7,11 +7,11 @@ class ComplexNumber {
         this.im = im;
     }
 
-    boolean equal(ComplexNum num) {
+    boolean equal(ComplexNumber num) {
         return (re == num.re) && (im == num.im);
     }
 
-    void add(ComplexNum num) {
+    void add(ComplexNumber num) {
         re += num.re;
         im += num.im;
     }
