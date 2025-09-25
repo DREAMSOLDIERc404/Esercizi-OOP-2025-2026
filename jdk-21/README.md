@@ -1,6 +1,6 @@
-## PUT HERE YOUR JAVA DIST HERE
+# PUT HERE YOUR JAVA DIST HERE
 
-  *Java SE Development Kit 21.0.7*
+  ## *Java SE Development Kit 21.0.7*
 
   Scarica la zip e metti il contenuto qua in modo che il path sia il seguente:
 
@@ -8,19 +8,23 @@
   C:\..\ES..25-2026\jdk-21\[bin,conf,include,...]
   ```
 
-Dopodichè, prima di usare i comandi java,javac, ... 
+Dopodichè, prima di usare i comandi java,javac, ...   
 
-**nel terminale** lancia il seguente comando
+**Nel terminale** lancia il seguente comando:
 
 ```
 //Powershell
-$>
-
+$> $env:Path = "C:\[PATH_TO_FOLDER]\Esercizi-OOP-2025-2026\jdk-21\JAVA\bin"+ ";" + $env:Path
+```
+oppure
+```
 //Cmd
-$> 
+$> set PATH=C:\[PATH_TO_FOLDER]\Esercizi-OOP-2025-2026\jdk-21\JAVA\bin;%PATH%
 ```
 
-**LINK:**
+ora avrai una shell con **Java-21** pronta!
+
+## LINK DI DOWNLOAD:
 
 [->Win x64](https://download.oracle.com/java/21/archive/jdk-21.0.7_windows-x64_bin.zip)
 
