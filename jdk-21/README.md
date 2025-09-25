@@ -8,6 +8,18 @@
   C:\..\ES..25-2026\jdk-21\[bin,conf,include,...]
   ```
 
+Dopodichè, prima di usare i comandi java,javac, ... 
+
+**nel terminale** lancia il seguente comando
+
+```
+//Powershell
+$>
+
+//Cmd
+$> 
+```
+
 **LINK:**
 
 [->Win x64](https://download.oracle.com/java/21/archive/jdk-21.0.7_windows-x64_bin.zip)
