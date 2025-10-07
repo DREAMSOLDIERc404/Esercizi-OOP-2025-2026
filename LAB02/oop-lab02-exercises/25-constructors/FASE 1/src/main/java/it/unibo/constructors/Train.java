@@ -33,7 +33,7 @@ class Train {
     //Il mio lavoro
     static final int DEFAULT_N_FC_SEATS = 50;
     static final int DEFAULT_N_SC_SEATS = 100;
-    static final int DEFAULT_TOT_SEATS = DEFAULT_N_FC_SEATS + DEFAULT_N_SC_SEATS;
+    static final int DEFAULT_TOT_SEATS = 150;
 
     /* Dalle soluzioni, si consiglia di impostarle come final 
      * Per impedirne la modifica una volt ainzializzate
@@ -52,8 +52,8 @@ class Train {
         this.secondClassReserved=0;
     }
 
-    Train(int FirsClassSeats, int SecondClassSeats){
-        this.seats=FirsClassSeats + SecondClassSeats;
+    Train(int TotSeats, int FirsClassSeats, int SecondClassSeats){
+        this.seats=TotSeats;
         this.firstClassSeats=FirsClassSeats;
         this.secondClassSeats=SecondClassSeats;
         this.firstClassReserved=0;
