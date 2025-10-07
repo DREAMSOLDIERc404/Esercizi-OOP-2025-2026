@@ -17,16 +17,19 @@ Per compilare è necessario settare con cp la cartella di build al suo interno c
 # Per il punto 9
 
 ```
-..\ESECUZIONE> cd bin\compilation\lab\math
-..\math> java ComplexNum
+...\ESECUZIONE> cd bin\compilation\lab\math
+...\math> java ComplexNum
 
 /*NON FUNZIONA*/
 ```
 
-L'unico modo è creare un'altra volta il package e nella cartella corrente `math\` creare di nuovo `compilation\lab\math\ComplexNum.java`
+Per ben **2 motivi**:
+
+- Manca il percorso di package alla classe
+- Non c'è riferimento alla main folder di build ( `bin/` )
 
 e poi lanciare:
 
 ```
-java compilation.lab.math.ComplexNum
+...\math> java -cp "..\..\..\..\bin" compilation.lab.math.Comple
 ```
