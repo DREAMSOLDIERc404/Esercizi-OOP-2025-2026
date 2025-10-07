@@ -24,7 +24,7 @@ class TestCommandLine {
          */
         for(int i=0; i < args.length; i++){
             int length = args[i].length();
-            System.out.println( args[i] + ", " + length + " character" + ( length==1 ? "" : "s" ) + "long");
+            System.out.println( args[i] + ", " + length + " character" + ( length==1 ? "" : "s" ) + " long");
         }
     }
 }
